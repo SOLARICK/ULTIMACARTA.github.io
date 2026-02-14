@@ -1,0 +1,27 @@
+body{
+    background-image: url(cosmos2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+    transition: color 0.3 ease;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0.2);
+    animation: fadeIn 1s ease;
+    margin: 100px;
+}
+
+p{
+    color: white;
+    font-size: 1.2rem;
+}

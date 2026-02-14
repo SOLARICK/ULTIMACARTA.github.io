@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5f5e6;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: red;
+    transition: color 0.3 ease;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0.2);
+    animation: fadeIn 1s ease;
+}
+buttons{
+    margin-top: 50px;
+}
+
+.volver-6{
+    font-size: 1 rem;
+    padding: 15px 35px;
+    margin-right: 20px;
+    background-color: #454745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+.volver-6:hover{
+    background-color: rgb(184, 184, 184);
+    color:black;
+}
+
+.image-container{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 50px;
+}
